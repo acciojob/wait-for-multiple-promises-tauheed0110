@@ -53,7 +53,7 @@ function renderData(index, time){
     tbody.innerHTML += `
         <tr>
 			<td>Promise ${index+1}</td>
-			<td>${Math.floor(time)}</td>
+			<td>${(time)}</td>
 		</tr>
     `;
 }
