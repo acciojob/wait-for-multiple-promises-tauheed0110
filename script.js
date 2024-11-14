@@ -52,7 +52,7 @@ Promise.all([promise1(), promise2(), promise3()])
 function renderData(index, time){
     tbody.innerHTML += `
         <tr>
-			<td>Promse ${index+1}</td>
+			<td>Promise ${index+1}</td>
 			<td>${Math.floor(time)}</td>
 		</tr>
     `;
